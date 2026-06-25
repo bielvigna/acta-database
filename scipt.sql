@@ -231,7 +231,7 @@ CREATE TABLE IF NOT EXISTS problema (
 	id_ciclo BIGINT NOT NULL,
 	id_causa_raiz BIGINT NOT NULL,
 	id_problema_pai BIGINT,
-	titulo VARCHAR(180) NOT NULL,a
+	titulo VARCHAR(180) NOT NULL,
 	descricao TEXT NOT NULL,
 	peso NUMERIC(5,2) NOT NULL,
 	status enum_status_problema NOT NULL,
