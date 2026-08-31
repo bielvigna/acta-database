@@ -378,3 +378,4 @@ SELECT
     END AS tipo_movimentacao
 FROM sequencia sq;
 
+
